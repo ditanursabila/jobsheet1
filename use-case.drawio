@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T02:01:46.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="tMcqt1_A0pUpgeOscbmW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T02:34:26.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XkboHtWCic13UDJgbJTR" version="21.6.9" type="github">
   <diagram name="Page-1" id="1Mfrb3JRGNtfUw7k8Ax0">
-    <mxGraphModel>
+    <mxGraphModel dx="1060" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e9ntbeol70_rAxPwYVvT-2" value="Game Tebak Angka" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="280" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-12" value="Random Angka" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-13" value="Cek Angka" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-14" value="Menebak Angka" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="560" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-15" value="Komputer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-61" value="Pemain" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="400" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-63" value="" style="endArrow=none;html=1;rounded=0;exitX=0.025;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="e9ntbeol70_rAxPwYVvT-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="620" as="sourcePoint" />
+            <mxPoint x="150" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="348" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="e9ntbeol70_rAxPwYVvT-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="358" as="sourcePoint" />
+            <mxPoint x="140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ntbeol70_rAxPwYVvT-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="e9ntbeol70_rAxPwYVvT-61" target="e9ntbeol70_rAxPwYVvT-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="474" as="sourcePoint" />
+            <mxPoint x="150" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
